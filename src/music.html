@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz_App</title>
+    <link rel="stylesheet" href="./css/style_1.css">
+    
+</head>
+<body>
+    <div class="main-div" id="main">
+
+       <div class="inner-div">
+        <!-- total question number with timer showing here -->
+            <div id="display_container">
+                <div class="header">
+                    <div class="Num_of_count">
+                        <span class="Num_of_ques">
+                            1 of 10 questions
+                        </span>
+                    </div>
+                    <div class="timer">
+                        <img src="chronograph-160753_640.png" alt="" width="20px">
+                        <span class="time_left">15s</span>
+                    </div>
+                </div>
+            </div>
+              <!-- question & otions showing here -->
+
+            <h2 class="question">Question Comes Here</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="ans1" class="answer">
+                    <label for="ans1" id="option1">Answer Option</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans2" class="answer">
+                    <label for="ans2" id="option2">Answer Option</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans3" class="answer">
+                    <label for="ans3" id="option3">Answer Option</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans4" class="answer">
+                    <label for="ans4" id="option4">Answer Option</label>
+                </li>
+            </ul>
+            <!-- submit button & score showing in this portion -->
+         
+            <button id="submit">submit</button>
+            
+            <div id="myScore" class="scoreArea"></div>
+
+        </div>
+    </div>
+    <script src="./js/music.js"></script>
+</body>
+</html>  
